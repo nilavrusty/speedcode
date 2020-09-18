@@ -1,0 +1,46 @@
+
+.App{
+  display:flex;
+  flex-direction: column;
+height:100vh
+}
+.App .main{
+  flex:1;
+  background:#eee;
+  display: flex;
+}
+.main .aside{
+  width:20rem;
+  border-right:1px solid #000
+}
+.main .aside .eachRes{
+  padding:1rem;
+  text-align: center;
+  border:1px solid #000;
+  cursor:pointer;
+
+}
+.main .content .eachfood{
+  cursor:pointer;
+  display: inline-flex;
+  padding:2rem;
+  margin: 0.5rem;
+  max-width:10rem;
+  background: green;
+  color:#fff;
+}
+.main .content .valid{
+  background:green;
+}
+.main .content .invalid{
+  background:red;
+}
+.main .content{
+  flex:1
+}
+.App header, .App footer {
+  
+padding:2rem;
+
+
+}
